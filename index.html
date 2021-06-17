@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mycurriculum</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3 bor">
+                <img class="img-fluid" src="maxresdefault.jpg" alt="cadu">
+                <h1 onclick="mudar1()">Sobre</h1>
+                <br>
+                <h1 onclick="mudar2()">Habilidades</h1>
+                <br>
+                <h1 onclick="mudar3()">Formação</h1>
+                <br>
+                <h1 onclick="mudar4()">Hobbies</h1>
+                <br>
+                <h1 onclick="mudar5()">Books</h1>
+                <div class="d-flex flex-row bd-highlight mb-3">
+                    <div class="p-2 bd-highlight"></div>
+                    <div class="p-2 bd-highlight"></div>
+                    <div class="p-2 bd-highlight"></div>
+                </div>
+            </div>
+            <div style="display: block;" id="sobre" class="col-9">
+                <center>
+                    <h2>Cadu</h2>
+                </center>
+
+                <p class="text-center">Ai na boa, eu não consigo lembrar de um momento da vida
+                    que eu não estivesse surfando
+                    Eu quero sair fora cara, essa é minha chance de me mandar daqui
+                    Eu sou muito bom, brother.. Sou o melhor da ilha!
+                    Eu sei que eu pareço meio "metidão" quando eu falo assim mas
+                    Fazer o que? Eu sou o melhor mesmo.</p>
+
+            </div>
+            <div style="display: none;" id="habilidades" class="col-9">
+                <center><h2>Habilidades</h1></center>
+                <p class="text-center">Umas das minha hablidades principais é construir pranchas, pois gosto de surfar tanto quanto construir as pranchas para tal, sei fritar peixes então fome eu não passo, e sei manda os outros atacar a mãe para ver se ela kika.</p>
+            </div>
+            <div id="formacao" style="display: none;" class="col-9">
+                <center><h2>Formação</h2></center>
+                <p class="text-center">-Ensino médio completo
+                <br>-Curso de Surfista
+                </p>
+                <img src="25263295.jpg" alt="surf">
+            </div>
+            <div id="hobbies" style="display: none;" class="col-9">
+                <center><h2>Hobbies</h2></center>
+                <p class="text-center">Gosto de dar uns tapa pra fica tranquilin e pegar umas onda boa hehe.</p>
+            </div>
+            <div id="books" style="display: none;" class="col-9">
+                <center><h2>Books</h2></center>
+                <ul>
+                    <li>Mundo De Sofia</li>
+                    <li>O Mundo Que Habita Em Nós</li>
+                    <li>Assim Falava Zaratustra</li>
+                    <li>Epicuro, O Sábio</li>
+                    <li>Filosofia Prática</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

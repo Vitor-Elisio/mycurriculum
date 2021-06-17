@@ -1,0 +1,9 @@
+h1:hover{
+    color: blue;
+    font-style: oblique;
+    
+}
+
+.bor{
+    border-right: solid black 1px;
+}
