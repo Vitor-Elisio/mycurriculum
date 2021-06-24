@@ -5,14 +5,14 @@ h1:hover{
 }
 
 .bor{
-    border-right: solid white 1px;
+    border-right: solid black 1px;
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 
 div{
-    color: white;
+    color: black;
 }
 
